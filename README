@@ -1,0 +1,8 @@
+This is a Minimal Viable Example for demonstrating a discrepancy in handling
+of bitfields by different compilers.
+
+See <https://stackoverflow.com/questions/60718832/inconsistent-truncation-of-unsigned-bitfield-integer-expressions-between-c-and>
+for the discussion.
+
+To compile in a Unix environment: use `make`. On Windows, compile main.c,
+c-part.c and cpp-part.cpp from e.g. command line environment.
